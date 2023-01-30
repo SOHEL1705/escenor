@@ -1,0 +1,43 @@
+/* .card-title{
+    background-color: rgb(255, 255, 255) !important;
+    padding: 12px;
+    border-radius: 15px;
+}
+.cardmain{
+    display: grid !important;
+    cursor: pointer;
+}
+.card-body{
+    position:static;
+    cursor: pointer;
+    padding-bottom: 20%;
+    border-radius: 15px;
+    border: 1px solid black;
+    
+}
+.card-input{
+    border-bottom: 1px solid black !important;
+    padding: 10px 0 10px 0 !important;
+    width: 50%;
+    font-size: 16px !important;
+    background-color: transparent;
+    
+}
+.fa-trash{
+    float: right;
+    margin-right: 15px;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+    padding:2% 20% 2% 18%;
+}
+.fa-pen-to-square{
+    border-bottom: 2px solid black;
+    margin-left: 15px;
+    border-radius: 15px;
+    float: left;
+    padding:2% 18% 2% 20%;
+}
+.c-text{
+    background-color: bisque !important;
+
+} */

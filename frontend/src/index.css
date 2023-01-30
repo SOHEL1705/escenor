@@ -1,0 +1,10 @@
+body {
+ /* margin: 0%; */
+ background-image: url(../src/Images/whitebg.jpg)!important;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

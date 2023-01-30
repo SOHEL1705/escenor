@@ -1,0 +1,47 @@
+.btn_bg {
+    background-color: rgba(0, 0, 0, 0.31) !important;
+    display: flex;
+    align-items: center;
+}
+ 
+.btns {
+    width: 800px;
+    margin: 0 auto;
+    color: black;
+}
+
+.landing_reg {
+    background-color: rgba(0, 0, 0, 0.718) !important;
+    border: none !important;
+    margin: 0 12px auto;
+
+}
+
+.landing_log {
+    border: none !important;
+    margin: 12px auto;
+}
+.card-body{
+    /* margin: 50% auto; */
+    padding:10px !important;
+    border-radius:15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 15px rgba(96, 96, 96, 0.503);
+}
+.cardmain{
+    
+    background-color: transparent !important;
+    margin:20px  auto;
+    padding: 20px;;
+}
+.icons_list{
+    margin: 1px;
+
+}
+.fa-trash{
+    margin:5px
+}
+.fa-pen-to-square{
+    margin:5px
+}
+
