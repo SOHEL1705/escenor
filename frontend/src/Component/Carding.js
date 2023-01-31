@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Card from "react-bootstrap/Card";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { doneTodo, UpdateTodo,DeleteTodo } from "../redux/actions";
 import { useDispatch } from "react-redux";
 const Carding = ({ todo }) => {
@@ -15,9 +13,13 @@ const Carding = ({ todo }) => {
     setEdit((prevState) => !prevState);
     dispatch(UpdateTodo(todo._id, text));
   };
-
+  
   return (
     <>
+          <div className="constain_scroll">      
+          <div className="first"> todolist     
+    </div>
+          <div className="second">      
           <div className="icons_list">
           
           <span className="icon" onClick={()=>{dispatch(DeleteTodo(todo._id)) }}>
@@ -34,7 +36,7 @@ const Carding = ({ todo }) => {
             </div>
        
       <Card.Body 
-        className="my-2 card-body"
+        className=" my-2 card-body"
         style={{
           textDecoration: todo.Done ? "line-through" : "",
           color: todo.done ? "gray" : "",
@@ -45,7 +47,6 @@ const Carding = ({ todo }) => {
           style={{ display: edit ? "none" : " " }}
           className="card-title"
           >
-          {" "}
           <span>{todo.data}</span>
         </Card.Title>
        
@@ -62,7 +63,9 @@ const Carding = ({ todo }) => {
         </form>
 
         <Card.Text className="c-text"></Card.Text>
-      </Card.Body>.
+      </Card.Body>
+      </div>
+      </div>
     </>
   );
 };

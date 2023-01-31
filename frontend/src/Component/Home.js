@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <>
       <Container>
-        <div>
+        <div className="TodoCon">
           <h1>WELLCOME...! </h1>
           <Header />
-          <Todos />
         </div>
+          <Todos />
       </Container>
     </>
   );

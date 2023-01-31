@@ -6,8 +6,9 @@ const Lending = () => {
   return (
     <>
       <div className="btn_bg">
+      </div>
         <div className="btns">
-          <Link to="/">
+          <Link to="/Login">
             <Button className="landing_log">LOGIN</Button>
           </Link>
           <Link to="/Register">
@@ -16,7 +17,6 @@ const Lending = () => {
             </Button>
           </Link>
         </div>
-      </div>
     </>
   );
 };

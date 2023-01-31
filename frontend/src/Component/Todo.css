@@ -1,15 +1,23 @@
 .btn_bg {
-    background-color: rgba(0, 0, 0, 0.31) !important;
-    display: flex;
-    align-items: center;
+   background-image: url(../Images/blackbg.jpg);
+   height: 93vh;
+   filter: blur(8px);
+    z-index: -1;
+    opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
  
 .btns {
-    width: 800px;
-    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     color: black;
 }
-
+    
 .landing_reg {
     background-color: rgba(0, 0, 0, 0.718) !important;
     border: none !important;
@@ -21,15 +29,29 @@
     border: none !important;
     margin: 12px auto;
 }
+.card-body:hover{
+    padding-left:20px !important;
+    border-radius:15px;
+    background-color: rgb(177, 177, 177);
+    box-shadow: 1px 1px 0px rgba(96, 96, 96, 0.503);
+
+}
 .card-body{
-    /* margin: 50% auto; */
     padding:10px !important;
     border-radius:15px;
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 1px 1px 15px rgba(96, 96, 96, 0.503);
+    background-color: rgba(0, 0, 0, 0.108);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.503);
+}
+.card-body input{
+    border: none;
+    /* padding:5px !important; */
+    border-radius:15px;
+    background-color: transparent;
+    color: brown;
+    font-size: 20px;
 }
 .cardmain{
-    
+    cursor: pointer;
     background-color: transparent !important;
     margin:20px  auto;
     padding: 20px;;
@@ -39,9 +61,58 @@
 
 }
 .fa-trash{
-    margin:5px
+    margin:5px;
 }
 .fa-pen-to-square{
     margin:5px
 }
+.container_Log{
+    background-color: rgba(195, 195, 195, 0.268);
+    padding: 15px;
+    margin-top: 15%;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px rgba(132, 132, 132, 0.411);
+}
+.container_Reg{
+    background-color: rgba(195, 195, 195, 0.268);
+    padding: 15px;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px rgba(132, 132, 132, 0.411);
 
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
+}
+.TodoCon{
+    background-color: rgba(195, 195, 195, 0.268);
+    padding: 15px;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px rgba(132, 132, 132, 0.411);
+}
+.constain_scroll{
+    height: 10%;
+  display: grid;
+}
+div.first {
+    background-color: rgb(100, 100, 100);
+    
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+    margin-top:10px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+div.second {
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 1rem;
+    overflow-y: auto;
+    border-radius:0 0 10px 10px;
+    border:1px solid black
+  }

@@ -6,8 +6,8 @@ const Header = () => {
     <>
       <header>
     
-</header>
 <TodoCard/>
+</header>
     </>
   )
 }

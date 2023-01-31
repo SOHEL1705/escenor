@@ -25,7 +25,6 @@ const TodoCard = () => {
   return (
    <>
    <Form onSubmit={SubmitHandler}>
-        <Form.Label><span> LISTITEM</span></Form.Label>
       <Form.Group className="mb-3" controlId="formBasicEmail">
 
         <Form.Control 
